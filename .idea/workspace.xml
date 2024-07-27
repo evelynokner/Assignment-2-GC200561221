@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Blaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Splatling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" afterDir="false" />
+    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -96,11 +87,24 @@
       <workItem from="1721235982248" duration="609000" />
       <workItem from="1721505532058" duration="39000" />
       <workItem from="1721761664510" duration="2082000" />
-      <workItem from="1722010703318" duration="6624000" />
+      <workItem from="1722010703318" duration="8564000" />
     </task>
+    <task id="LOCAL-00001" summary="ui">
+      <option name="closed" value="true" />
+      <created>1722101000181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722101000181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui" />
   </component>
 </project>
