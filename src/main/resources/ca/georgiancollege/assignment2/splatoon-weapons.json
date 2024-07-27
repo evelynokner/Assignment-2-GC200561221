@@ -1,0 +1,32 @@
+{
+  "Weapons": [
+    {
+      "Name":"Inkbrush",
+      "Special": "Killer Wail 5.1",
+      "Matchmaking Range": "7",
+      "Special Meter": "180",
+      "Range": 5,
+      "Ink Speed": 100,
+      "Handling": 100
+    },
+
+    {
+      "Name": "Inkbrush Nouveau",
+      "Special": "Ultra Stamp",
+      "Matchmaking Range": "7",
+      "Special Meter": "180",
+      "Range": 5,
+      "Ink Speed": 100,
+      "Handling": 100},
+
+      {"Name": "Sploosh-o-matic",
+      "Special": "Ultra Stamp",
+      "Matchmaking Range": "8",
+      "Special Meter": "180",
+      "Range": 12,
+      "Damage": 52,
+      "Fire Rate": 75}
+
+    
+  ]
+}
