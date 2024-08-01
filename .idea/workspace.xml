@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="ui">
+    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="json file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Blaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Splatling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,6 +62,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -75,6 +88,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +103,8 @@
       <workItem from="1721235982248" duration="609000" />
       <workItem from="1721505532058" duration="39000" />
       <workItem from="1721761664510" duration="2082000" />
-      <workItem from="1722010703318" duration="8564000" />
+      <workItem from="1722010703318" duration="12263000" />
+      <workItem from="1722457495496" duration="7499000" />
     </task>
     <task id="LOCAL-00001" summary="ui">
       <option name="closed" value="true" />
@@ -97,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722101000181</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="json file">
+      <option name="closed" value="true" />
+      <created>1722102934705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722102934705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui" />
+    <MESSAGE value="json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="json file" />
   </component>
 </project>
