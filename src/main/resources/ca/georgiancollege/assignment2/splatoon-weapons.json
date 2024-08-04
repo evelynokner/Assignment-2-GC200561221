@@ -1,24 +1,35 @@
 {
-  "Weapons": [
+  "weapons": [
 
-    {"name":"Inkbrush",
-      "special": "Killer Wail 5.1",
-      "matchmakingRange": "7",
-      "specialPoints": "180",
-      "range": 5,
-      "inkSpeed": 100,
-      "handling": 100
-    },
+    {"name": "Inkbrush",
+      "type": "Painters",
+      "Special": "Killer Wail 5.1",
+      "Matchmaking Range": "7",
+      "Special Meter": "180",
+      "Range": 5,
+      "Ink Speed": 100,
+      "Handling": 100},
 
     {"name": "Inkbrush Nouveau",
-      "special": "Ultra Stamp",
-      "matchmakingRange": "7",
-      "specialPoints": "180",
-      "range": 5,
-      "inkSpeed": 100,
-      "handling": 100},
+      "type": "Painters",
+      "Special": "Ultra Stamp",
+      "Matchmaking Range": "7",
+      "Special Meter": "180",
+      "Range": 5,
+      "Ink Speed": 100,
+      "Handling": 100},
+
+    {"name": "Octobrush",
+      "type": "Painters",
+      "Special": "Zipcaster",
+      "Matchmaking Range": "10.5",
+      "Special Meter": "200",
+      "Range": 23,
+      "Ink Speed": 80,
+      "Handling": 85},
 
     {"name": "Sploosh-o-matic",
+      "type": "Shooters",
       "special": "Ultra Stamp",
       "matchmakingRange": "8",
       "specialPoints": "180",
@@ -27,6 +38,7 @@
       "fireRate": 75},
 
     {"name": "Neo Sploosh-o-matic",
+      "type": "Shooters",
       "special": "Killer Wail 5.1",
       "matchmakingRange": "8",
       "specialPoints": "180",
@@ -35,6 +47,7 @@
       "fireRate": 75},
 
     {"name": "Carbon Roller",
+      "type": "Painters",
       "special": "Zipcaster",
       "matchmakingRange": "9.5",
       "specialPoints": "180",
@@ -43,6 +56,7 @@
       "handling": 65},
 
     {"name": "Carbon Roller Deco",
+      "type": "Painters",
       "special": "Trizooka",
       "matchmakingRange": "9.5",
       "specialPoints": "190",
@@ -51,6 +65,7 @@
       "handling": 65},
 
     {"name": "Dapple Dualies",
+      "type": "Shooters",
       "special": "Tacticooler",
       "matchmakingRange": "9.5",
       "specialPoints": "180",
@@ -59,6 +74,7 @@
       "fireRate": 80},
 
     {"name": "Dapple Dualies Nouveau",
+      "type": "Shooters",
       "special": "Reefslider",
       "matchmakingRange": "9.5",
       "specialPoints": "190",
@@ -66,15 +82,8 @@
       "damage": 47,
       "fireRate": 80},
 
-    {"name": "Octobrush",
-      "special": "Zipcaster",
-      "matchmakingRange": "10.5",
-      "specialPoints": "200",
-      "range": 23,
-      "inkSpeed": 80,
-      "handling": 85},
-
     {"name": "Splattershot Jr.",
+      "type": "Shooters",
       "special": "Big Bubbler",
       "matchmakingRange": "11",
       "specialPoints": "180",
@@ -83,6 +92,7 @@
       "fireRate": 75},
 
     {"name": "Custom Splattershot Jr.",
+      "type": "Shooters",
       "special": "Wave Breaker",
       "matchmakingRange": "11",
       "specialPoints": "190",
@@ -91,6 +101,7 @@
       "fireRate": 75},
 
     {"name": "Aerospray MG",
+      "type": "Shooters",
       "special": "Reefslider",
       "matchmakingRange": "11",
       "specialPoints": "180",
@@ -99,6 +110,7 @@
       "fireRate": 90},
 
     {"name": "Aerospray RG",
+      "type": "Shooters",
       "special": "Booyah Bomb",
       "matchmakingRange": "11",
       "specialPoints": "200",
@@ -107,6 +119,7 @@
       "fireRate": 90},
 
     {"name": "Luna Blaster",
+      "type": "Blasters",
       "special": "Zipcaster",
       "matchmakingRange": "11",
       "specialPoints": "180",
@@ -115,6 +128,7 @@
       "fireRate": 30},
 
     {"name": "Luna Blaster Neo",
+      "type": "Blasters",
       "special": "Ultra Stamp",
       "matchmakingRange": "11",
       "specialPoints": "180",
@@ -123,6 +137,7 @@
       "fireRate": 30},
 
     {"name": "Clash Blaster",
+      "type": "Blasters",
       "special": "Trizooka",
       "matchmakingRange": "11",
       "specialPoints": "180",
@@ -131,6 +146,7 @@
       "fireRate": 65},
 
     {"name": "Clash Blaster Neo",
+      "type": "Blasters",
       "special": "Super Chump",
       "matchmakingRange": "11",
       "specialPoints": "180",
@@ -138,8 +154,26 @@
       "damage": 25,
       "fireRate": 65},
 
+    {"name": "Tri-Slosher",
+      "type": "Painters",
+      "Special": "Inkjet",
+      "Matchmaking Range": "11",
+      "Special Meter": "180",
+      "Range": 31,
+      "Damage": 75,
+      "Handling": 70},
+
+    {"name": "Tri-Slosher Nouveau",
+      "type": "Painters",
+      "Special": "Tacticooler",
+      "Matchmaking Range": "11",
+      "Special Meter": "180",
+      "Range": 31,
+      "Damage": 75,
+      "Handling": 70},
 
     {"name": "Splash-o-matic",
+      "type": "Shooters",
       "special": "Crab Tank",
       "matchmakingRange": "11.7",
       "specialPoints": "200",
@@ -148,6 +182,7 @@
       "fireRate": 75},
 
     {"name": "Neo Splash-o-matic",
+      "type": "Shooters",
       "special": "Triple Inkstrike",
       "matchmakingRange": "11.7",
       "specialPoints": "200",
@@ -156,6 +191,7 @@
       "fireRate": 75},
 
     {"name": "Splat Roller",
+      "type": "Painters",
       "special": "Big Bubbler",
       "matchmakingRange": "11.8",
       "specialPoints": "180",
@@ -164,6 +200,7 @@
       "handling": 55},
 
     {"name": "Krak-On Splat Roller",
+      "type": "Painters",
       "special": "Kraken Royale",
       "matchmakingRange": "11.8",
       "specialPoints": "180",
@@ -172,6 +209,7 @@
       "handling": 55},
 
     {"name": "Splattershot",
+      "type": "Shooters",
       "special": "Trizooka",
       "matchmakingRange": "12.5",
       "specialPoints": "190",
@@ -180,6 +218,7 @@
       "fireRate": 60},
 
     {"name": "Tentatek Splattershot",
+      "type": "Shooters",
       "special": "Triple Inkstrike",
       "matchmakingRange": "12.5",
       "specialPoints": "190",
@@ -188,6 +227,7 @@
       "fireRate": 60},
 
     {"name": "Hero Shot Replica",
+      "type": "Shooters",
       "special": "Trizooka",
       "matchmakingRange": "12.5",
       "specialPoints": "190",
@@ -196,6 +236,7 @@
       "fireRate": 60},
 
     {"name": "N-ZAP '85",
+      "type": "Shooters",
       "special": "Tacticooler",
       "matchmakingRange": "12.5",
       "specialPoints": "180",
@@ -204,6 +245,7 @@
       "fireRate": 75},
 
     {"name": "N-ZAP '89",
+      "type": "Shooters",
       "special": "Super Chump",
       "matchmakingRange": "12.5",
       "specialPoints": "180",
@@ -212,6 +254,7 @@
       "fireRate": 75},
 
     {"name": "Big Swig Roller",
+      "type": "Painters",
       "special": "Ink Vac",
       "matchmakingRange": "12.5",
       "specialPoints": "200",
@@ -220,6 +263,7 @@
       "handling": 60},
 
     {"name": "Splat Dualies",
+      "type": "Shooters",
       "special": "Crab Tank",
       "matchmakingRange": "12.5",
       "specialPoints": "190",
@@ -228,6 +272,7 @@
       "fireRate": 60},
 
     {"name": ".52 Gal",
+      "type": "Shooters",
       "special": "Killer Wail 5.1",
       "matchmakingRange": "13.3",
       "specialPoints": "190",
@@ -236,6 +281,7 @@
       "fireRate": 25},
 
     {"name": "Blaster",
+      "type": "Blasters",
       "special": "Big Bubbler",
       "matchmakingRange": "13.3",
       "specialPoints": "180",
@@ -244,6 +290,7 @@
       "fireRate": 20},
 
     {"name": "L-3 Nozzlenose",
+      "type": "Shooters",
       "special": "Crab Tank",
       "matchmakingRange": "13.5",
       "specialPoints": "200",
@@ -252,6 +299,7 @@
       "fireRate": 65},
 
     {"name": "L-3 Nozzlenose D",
+      "type": "Shooters",
       "special": "Ultra Stamp",
       "matchmakingRange": "13.5",
       "specialPoints": "200",
@@ -260,6 +308,7 @@
       "fireRate": 65},
 
     {"name": "Flingza Roller",
+      "type": "Painters",
       "special": "Tenta Missiles",
       "matchmakingRange": "14",
       "specialPoints": "210",
@@ -268,6 +317,7 @@
       "handling": 45},
 
     {"name": "Dark Tetra Dualies",
+      "type": "Shooters",
       "special": "Reefslider",
       "matchmakingRange": "14",
       "specialPoints": "200",
@@ -275,7 +325,44 @@
       "damage": 22,
       "fireRate": 90},
 
+    {"name": "Slosher",
+      "type": "Painters",
+      "Special": "Triple Inkstrike",
+      "Matchmaking Range": "14.5",
+      "Special Meter": "200",
+      "Range": 58,
+      "Damage": 85,
+      "Handling": 50},
+
+    {"name": "Slosher Deco",
+      "type": "Painters",
+      "Special": "Zipcaster",
+      "Matchmaking Range": "14.5",
+      "Special Meter": "180",
+      "Range": 58,
+      "Damage": 85,
+      "Handling": 50},
+
+    {"name": "Sloshing Machine",
+      "type": "Painters",
+      "Special": "Booyah Bomb",
+      "Matchmaking Range": "14.7",
+      "Special Meter": "220",
+      "Range": 60,
+      "Damage": 90,
+      "Handling": 40},
+
+    {"name": "Bloblobber",
+      "type": "Painters",
+      "Special": "Ink Storm",
+      "Matchmaking Range": "15",
+      "Special Meter": "190",
+      "Range": 85,
+      "Damage": 29,
+      "Handling": 50},
+
     {"name": "Mini Splatling",
+      "type": "Splatlings",
       "special": "Ultra Stamp",
       "matchmakingRange": "15",
       "specialPoints": "180",
@@ -284,6 +371,7 @@
       "mobility": 90},
 
     {"name": "Zink Mini Splatling",
+      "type": "Splatlings",
       "special": "Big Bubbler",
       "matchmakingRange": "15",
       "specialPoints": "200",
@@ -291,15 +379,8 @@
       "chargeSpeed": 80,
       "mobility": 90},
 
-    {"name": "REEF-LUX 450",
-      "special": "Tenta Missiles",
-      "matchmakingRange": "15",
-      "specialPoints": "210",
-      "range": 60,
-      "chargeSpeed": 77,
-      "mobility": 60},
-
     {"name": "Splattershot Nova",
+      "type": "Shooters",
       "special": "Killer Wail 5.1",
       "matchmakingRange": "16",
       "specialPoints": "190",
@@ -308,6 +389,7 @@
       "fireRate": 60},
 
     {"name": "Glooga Dualies",
+      "type": "Shooters",
       "special": "Booyah Bomb",
       "matchmakingRange": "16",
       "specialPoints": "180",
@@ -316,6 +398,7 @@
       "fireRate": 35},
 
     {"name": "Rapid Blaster",
+      "type": "Blasters",
       "special": "Triple Inkstrike",
       "matchmakingRange": "16.7",
       "specialPoints": "200",
@@ -324,6 +407,7 @@
       "fireRate": 40},
 
     {"name": "Rapid Blaster Deco",
+      "type": "Blasters",
       "special": "Inkjet",
       "matchmakingRange": "16.7",
       "specialPoints": "200",
@@ -332,6 +416,7 @@
       "fireRate": 40},
 
     {"name": "Splattershot Pro",
+      "type": "Shooters",
       "special": "Crab Tank",
       "matchmakingRange": "17",
       "specialPoints": "180",
@@ -340,6 +425,7 @@
       "fireRate": 30},
 
     {"name": "Forge Splattershot Pro",
+      "type": "Shooters",
       "special": "Booyah Bomb",
       "matchmakingRange": "17",
       "specialPoints": "210",
@@ -348,6 +434,7 @@
       "fireRate": 30},
 
     {"name": "Range Blaster",
+      "type": "Blasters",
       "special": "Wave Breaker",
       "matchmakingRange": "17",
       "specialPoints": "200",
@@ -356,6 +443,7 @@
       "fireRate": 10},
 
     {"name": "H-3 Nozzlenose",
+      "type": "Shooters",
       "special": "Tacticooler",
       "matchmakingRange": "17",
       "specialPoints": "190",
@@ -364,6 +452,7 @@
       "fireRate": 30},
 
     {"name": "Dualie Squelchers",
+      "type": "Shooters",
       "special": "Wave Breaker",
       "matchmakingRange": "17",
       "specialPoints": "200",
@@ -372,6 +461,7 @@
       "fireRate": 70},
 
     {"name": ".96 Gal",
+      "type": "Shooters",
       "special": "Ink Vac",
       "matchmakingRange": "18",
       "specialPoints": "190",
@@ -380,6 +470,7 @@
       "fireRate": 10},
 
     {"name": ".96 Gal Deco",
+      "type": "Shooters",
       "special": "Kraken Royale",
       "matchmakingRange": "18",
       "specialPoints": "210",
@@ -388,6 +479,7 @@
       "fireRate": 10},
 
     {"name": "Nautilus 47",
+      "type": "Splatlings",
       "special": "Ink Storm",
       "matchmakingRange": "18",
       "specialPoints": "190",
@@ -396,6 +488,7 @@
       "mobility": 70},
 
     {"name": "Dynamo Roller",
+      "type": "Painters",
       "special": "Tacticooler",
       "matchmakingRange": "18.5",
       "specialPoints": "190",
@@ -404,6 +497,7 @@
       "handling": 20},
 
     {"name": "Classic Squiffer",
+      "type": "Chargers",
       "special": "Big Bubbler",
       "matchmakingRange": "18.5",
       "specialPoints": "190",
@@ -412,6 +506,7 @@
       "mobility": 60},
 
     {"name": "Rapid Blaster Pro",
+      "type": "Blasters",
       "special": "Ink Vac",
       "matchmakingRange": "19.2",
       "specialPoints": "180",
@@ -420,6 +515,7 @@
       "fireRate": 30},
 
     {"name": "Squeezer",
+      "type": "Shooters",
       "special": "Trizooka",
       "matchmakingRange": "20",
       "specialPoints": "200",
@@ -427,8 +523,17 @@
       "damage": 52,
       "fireRate": 30},
 
+    {"name": "Explosher",
+      "type": "Painters",
+      "Special": "Ink Storm",
+      "Matchmaking Range": "20.7",
+      "Special Meter": "200",
+      "Range": 77,
+      "Damage": 65,
+      "Handling": 20},
 
     {"name": "Bamboozler 14 Mk I",
+      "type": "Chargers",
       "special": "Killer Wail 5.1",
       "matchmakingRange": "21",
       "specialPoints": "200",
@@ -437,6 +542,7 @@
       "mobility": 80},
 
     {"name": "Goo Tuber",
+      "type": "Chargers",
       "special": "Tenta Missiles",
       "matchmakingRange": "21",
       "specialPoints": "200",
@@ -445,6 +551,7 @@
       "mobility": 70},
 
     {"name": "Heavy Splatling",
+      "type": "Splatlings",
       "special": "Wave Breaker",
       "matchmakingRange": "21",
       "specialPoints": "200",
@@ -453,6 +560,7 @@
       "mobility": 55},
 
     {"name": "Jet Squelcher",
+      "type": "Shooters",
       "special": "Ink Vac",
       "matchmakingRange": "22.5",
       "specialPoints": "190",
@@ -461,6 +569,7 @@
       "fireRate": 30},
 
     {"name": "Custom Jet Squelcher",
+      "type": "Shooters",
       "special": "Ink Storm",
       "matchmakingRange": "22.5",
       "specialPoints": "180",
@@ -469,6 +578,7 @@
       "fireRate": 30},
 
     {"name": "Hydra Splatling",
+      "type": "Splatlings",
       "special": "Booyah Bomb",
       "matchmakingRange": "24.5",
       "specialPoints": "190",
@@ -477,6 +587,7 @@
       "mobility": 20},
 
     {"name": "Ballpoint Splatling",
+      "type": "Splatlings",
       "special": "Inkjet",
       "matchmakingRange": "24.5",
       "specialPoints": "190",
@@ -485,6 +596,7 @@
       "mobility": 60},
 
     {"name": "Snipewriter 5H",
+      "type": "Chargers",
       "special": "Tacticooler",
       "matchmakingRange": "25",
       "specialPoints": "200",
@@ -492,15 +604,8 @@
       "chargeSpeed": 43,
       "mobility": 80},
 
-    {"name": "Tri-Stringer",
-      "special": "Killer Wail 5.1",
-      "matchmakingRange": "25",
-      "specialPoints": "190",
-      "range": 88,
-      "chargeSpeed": 40,
-      "mobility": 40},
-
     {"name": "Splat Charger",
+      "type": "Chargers",
       "special": "Ink Vac",
       "matchmakingRange": "26",
       "specialPoints": "200",
@@ -509,6 +614,7 @@
       "mobility": 40},
 
     {"name": "Z+F Splat Charger",
+      "type": "Chargers",
       "special": "Triple Inkstrike",
       "matchmakingRange": "26",
       "specialPoints": "210",
@@ -517,6 +623,7 @@
       "mobility": 40},
 
     {"name": "Splatterscope",
+      "type": "Chargers",
       "special": "Ink Vac",
       "matchmakingRange": "28",
       "specialPoints": "200",
@@ -525,6 +632,7 @@
       "mobility": 30},
 
     {"name": "Z+F Splatterscope",
+      "type": "Chargers",
       "special": "Triple Inkstrike",
       "matchmakingRange": "28",
       "specialPoints": "210",
@@ -533,6 +641,7 @@
       "mobility": 30},
 
     {"name": "E-liter 4K",
+      "type": "Chargers",
       "special": "Wave Breaker",
       "matchmakingRange": "31",
       "specialPoints": "210",
@@ -541,6 +650,7 @@
       "mobility": 15},
 
     {"name": "E-liter 4K Scope",
+      "type": "Chargers",
       "special": "Wave Breaker",
       "matchmakingRange": "33",
       "specialPoints": "210",

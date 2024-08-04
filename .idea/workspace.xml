@@ -4,26 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="json file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" afterDir="false" />
+    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="json file modified to match Weapon instance variables">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/JsonToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Blaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gson-2.11.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gson-2.11.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Splatling.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +64,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.JsonToString.executor": "Run",
+    "Application.MainApplication.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -81,6 +84,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,6 +95,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.georgiancollege.assignment2.MainApplication" />
+      <module name="Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.georgiancollege.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +128,12 @@
       <workItem from="1721505532058" duration="39000" />
       <workItem from="1721761664510" duration="2082000" />
       <workItem from="1722010703318" duration="12263000" />
-      <workItem from="1722457495496" duration="7499000" />
+      <workItem from="1722457495496" duration="7716000" />
+      <workItem from="1722703084180" duration="3801000" />
+      <workItem from="1722717931601" duration="87000" />
+      <workItem from="1722718055120" duration="62000" />
+      <workItem from="1722718128257" duration="1139000" />
+      <workItem from="1722784097259" duration="10893000" />
     </task>
     <task id="LOCAL-00001" summary="ui">
       <option name="closed" value="true" />
@@ -122,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722102934705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="json file modified to match Weapon instance variables">
+      <option name="closed" value="true" />
+      <created>1722520038936</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722520038936</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +168,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ui" />
     <MESSAGE value="json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="json file" />
+    <MESSAGE value="json file modified to match Weapon instance variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="json file modified to match Weapon instance variables" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

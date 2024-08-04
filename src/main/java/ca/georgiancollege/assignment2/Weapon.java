@@ -1,12 +1,11 @@
 package ca.georgiancollege.assignment2;
 
 public class Weapon {
-    private String name, special;
+    private String name, type, special;
     private double matchmakingRange;
     private int specialPoints, range;
-            //inkSpeed, damage, impact, chargeSpeed, //parameter1
-            //handling, fireRate, mobility, durability; //parameter2
-
+        //inkSpeed, damage, chargeSpeed, //parameter1
+        //handling, fireRate, mobility; //parameter2
 
     public String getName() {
         return name;
@@ -14,6 +13,14 @@ public class Weapon {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getSpecial() {
@@ -46,5 +53,17 @@ public class Weapon {
 
     public void setRange(int range) {
         this.range = range;
+    }
+
+    @Override
+    public String toString() {
+        return "Weapon{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", special='" + special + '\'' +
+                ", matchmakingRange=" + matchmakingRange +
+                ", specialPoints=" + specialPoints +
+                ", range=" + range +
+                '}';
     }
 }
