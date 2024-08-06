@@ -12,7 +12,6 @@ import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -59,7 +58,6 @@ public class SplatoonDBController {
         weaponList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
-                // Your action here
                 Parent root = null;
                 try {
                     root = FXMLLoader.load(getClass().getResource("weapon-details-view.fxml"));
@@ -89,18 +87,6 @@ public class SplatoonDBController {
         // 6 splatlings
         weapTypeComboBox.getItems().add("Splatlings");
 
-
-
-
-        //sort list based on weapon type selected from weapTypeComboBox
-
-        String selectedWeaponType = weapTypeComboBox.getSelectionModel().getSelectedItem();
-//        Weapon weapon = new Weapon();
-//
-//        if(selectedWeaponType != null && (!selectedWeaponType.equals(weapon.getType()))
-//                && !selectedWeaponType.equals("All")) continue;
-
-
     }
 
     private void fillWeaponList(){
@@ -113,45 +99,5 @@ public class SplatoonDBController {
             weaponList.getItems().add(weapon.getName());
         }
     }
-    static void JsonToObject() throws FileNotFoundException {
-       /* JSONArray jsonArray = (JSONArray) parser.parse(new FileReader("c:\\splatoon-weapons.json"));
 
-        for (Object obj : jsonArray)
-        {
-            JSONObject weapon = (JSONObject) obj;
-
-            String name = (String) weapon.get("name");
-            System.out.println(name);
-
-            String special = (String) weapon.get("special");
-            System.out.println(special);
-
-            String matchmakingRange = (String) weapon.get("matchmakingRange");
-            System.out.println(matchmakingRange);
-
-            String specialPoints = (String) weapon.get("specialPoints");
-            System.out.println(specialPoints);
-
-            //shooter
-            String specialPoints = (String) weapon.get("specialPoints");
-            System.out.println(specialPoints);
-
-            String specialPoints = (String) weapon.get("specialPoints");
-            System.out.println(specialPoints);
-
-            //painter
-            String specialPoints = (String) weapon.get("specialPoints");
-            System.out.println(specialPoints);
-
-            String specialPoints = (String) weapon.get("specialPoints");
-            System.out.println(specialPoints);
-
-            //charger
-            String specialPoints = (String) weapon.get("specialPoints");
-            System.out.println(specialPoints);
-
-            String specialPoints = (String) weapon.get("specialPoints");
-            System.out.println(specialPoints);
-        }*/
-    }
 }

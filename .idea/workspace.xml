@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="json file modified to match Weapon instance variables">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/JsonToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapons.java" afterDir="false" />
+    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="can switch between both views">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gson-2.11.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gson-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -76,6 +70,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/evelynokner/IdeaProjects/Assignment2/src/main/resources/ca/georgiancollege/assignment2",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,7 +128,8 @@
       <workItem from="1722717931601" duration="87000" />
       <workItem from="1722718055120" duration="62000" />
       <workItem from="1722718128257" duration="1139000" />
-      <workItem from="1722784097259" duration="10893000" />
+      <workItem from="1722784097259" duration="11599000" />
+      <workItem from="1722964128525" duration="2266000" />
     </task>
     <task id="LOCAL-00001" summary="ui">
       <option name="closed" value="true" />
@@ -159,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722520038936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="can switch between both views">
+      <option name="closed" value="true" />
+      <created>1722811728619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722811728619</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,14 +173,15 @@
     <MESSAGE value="ui" />
     <MESSAGE value="json file" />
     <MESSAGE value="json file modified to match Weapon instance variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="json file modified to match Weapon instance variables" />
+    <MESSAGE value="can switch between both views" />
+    <option name="LAST_COMMIT_MESSAGE" value="can switch between both views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java</url>
-          <line>54</line>
+          <line>53</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

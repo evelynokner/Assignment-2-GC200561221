@@ -1,0 +1,22 @@
+#anchorpane{
+    -fx-background-image:
+    url("https://images.alphacoders.com/111/1112260.jpg");
+    -fx-background-size: 1000px;
+    width: 630px;
+    height: 540px;
+}
+#weapNameLabel, #weapDBLabel{
+    -fx-background-color: white;
+}
+#weapTypeLabel1, #weapTypeLabel2, #selectLabel{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+#backButton{
+    -fx-background-color: white;
+    -fx-text-fill: darkblue;
+}
+#backButton:hover{
+    -fx-text-fill: hotpink;
+    -fx-font-weight: bold;
+}

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="540.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.assignment2.WeaponDetailsController">
+<AnchorPane fx:id="anchorpane" prefHeight="540.0" prefWidth="630.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.assignment2.WeaponDetailsController">
    <children>
       <Label fx:id="weapNameLabel" alignment="CENTER" layoutX="237.0" layoutY="41.0" text="Weapon Name">
          <font>
@@ -21,7 +21,7 @@
       <Label fx:id="specialPointsLabel" layoutX="49.0" layoutY="183.0" text="Special Points" />
       <Label fx:id="mmRangeLabel" layoutX="48.0" layoutY="243.0" text="Matchmaking Range" />
       <Label layoutX="48.0" layoutY="305.0" text="Range" />
-      <Label fx:id="weapTypeLabel" layoutX="52.0" layoutY="48.0" text="Weapon Type">
+      <Label fx:id="weapTypeLabel2" layoutX="455.0" layoutY="44.0" text="Weapon Type">
          <font>
             <Font size="18.0" />
          </font>

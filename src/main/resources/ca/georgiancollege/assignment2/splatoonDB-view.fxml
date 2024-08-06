@@ -6,24 +6,24 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="540.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.assignment2.SplatoonDBController">
+<AnchorPane fx:id="anchorpane" prefHeight="540.0" prefWidth="630.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.assignment2.SplatoonDBController">
    <children>
-      <Label layoutX="202.0" layoutY="28.0" text="Splatoon Weapons DB" textAlignment="CENTER">
+      <Label fx:id="weapDBLabel" layoutX="202.0" layoutY="28.0" text="Splatoon Weapons DB" textAlignment="CENTER">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="110.0" layoutY="81.0" text="Weapon Type">
+      <Label fx:id="weapTypeLabel1" layoutX="173.0" layoutY="83.0" text="Weapon Type">
          <font>
             <Font size="15.0" />
          </font>
       </Label>
       <ListView fx:id="weaponList" layoutX="84.0" layoutY="120.0" prefHeight="353.0" prefWidth="464.0" />
-      <Label layoutX="217.0" layoutY="492.0" text="Select a weapon to view its details" underline="true">
+      <Label fx:id="selectLabel" layoutX="217.0" layoutY="492.0" text="Select a weapon to view its details" underline="true">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <ComboBox fx:id="weapTypeComboBox" layoutX="241.0" layoutY="77.0" prefWidth="150.0" />
+      <ComboBox fx:id="weapTypeComboBox" layoutX="288.0" layoutY="79.0" prefWidth="150.0" />
    </children>
 </AnchorPane>
