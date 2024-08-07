@@ -1,7 +1,7 @@
 package ca.georgiancollege.assignment2;
 
 public class Weapon {
-    private String name, type, special;
+    private String name, image, type, special;
     private double matchmakingRange;
     private int specialPoints, range;
         //inkSpeed, damage, chargeSpeed, //parameter1
@@ -13,6 +13,14 @@ public class Weapon {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public String getType() {
