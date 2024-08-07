@@ -4,11 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="can switch between both views">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/stylesheet.css" afterDir="false" />
+    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="css stylesheet">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/52gal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/96gal-deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/96gal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/aerospray-mg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/aerospray-rg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ballpoint-splatling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bamboozler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/big-swig-roller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/blaster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bloblobber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/carbon-roller-deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/carbon-roller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/clash-blaster-neo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/clash-blaster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/classic-squiffer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/custom-jet-squelcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/custom-splattershot-jr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dapple-dualies-nouveau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dapple-dualies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dark-tetra-dualies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dualie-squelchers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dynamo-roller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/eliter-4k-scope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/eliter-4k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/explosher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/flingza-roller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/forge-splattershot-pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/glooga-dualies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/goo-tuber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/h3-nozzlenose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/heavy-splatling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/hero-shot-replica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/hydra-splatling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/inkbrush-nouveau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/inkbrush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/jet-squelcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/l3-nozzlenose-d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/l3-nozzlenose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/luna-blaster-neo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/luna-blaster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/mini-splatling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/nautilus-47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/neo-splash-o-matic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/neo-sploosh-o-matic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/nzap85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/nzap89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/octobrush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/range-blaster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/rapid-blaster-deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/rapid-blaster-pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/rapid-blaster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/slosher-deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/slosher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sloshing-machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/snipewriter-5h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splash-o-matic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splat-charger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splat-dualies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splatterscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splattershot-jr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splattershot-nova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splattershot-pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splattershot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sploosh-o-matic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/squeezer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tentatek-splattershot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tri-slosher-nouveau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tri-slosher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/z+f-splat-charger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/z+f-splatterscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/zink-mini-splatling.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoonDB-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +161,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -129,7 +203,7 @@
       <workItem from="1722718055120" duration="62000" />
       <workItem from="1722718128257" duration="1139000" />
       <workItem from="1722784097259" duration="11599000" />
-      <workItem from="1722964128525" duration="2266000" />
+      <workItem from="1722964128525" duration="11318000" />
     </task>
     <task id="LOCAL-00001" summary="ui">
       <option name="closed" value="true" />
@@ -163,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722811728619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="css stylesheet">
+      <option name="closed" value="true" />
+      <created>1722966455962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722966455962</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,17 +256,7 @@
     <MESSAGE value="json file" />
     <MESSAGE value="json file modified to match Weapon instance variables" />
     <MESSAGE value="can switch between both views" />
-    <option name="LAST_COMMIT_MESSAGE" value="can switch between both views" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="css stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="css stylesheet" />
   </component>
 </project>

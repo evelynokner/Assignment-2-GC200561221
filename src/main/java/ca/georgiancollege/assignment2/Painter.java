@@ -1,7 +1,7 @@
 package ca.georgiancollege.assignment2;
 
 public class Painter extends Weapon {
-    //rollers & brushes - 10/68 total
+    //rollers & brushes - 17/73 total
     private int inkSpeed, handling;
 
     public int getInkSpeed() {

@@ -1,7 +1,7 @@
 package ca.georgiancollege.assignment2;
 
 public class Charger extends Weapon {
-    //sniper, splatling, stringer - 18/68 total
+    //sniper, splatling, stringer - 16/73 total
     private int chargeSpeed, mobility;
 
     public int getChargeSpeed() {

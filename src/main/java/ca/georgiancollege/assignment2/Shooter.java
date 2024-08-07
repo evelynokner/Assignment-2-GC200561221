@@ -1,7 +1,7 @@
 package ca.georgiancollege.assignment2;
 
 public class Shooter extends Weapon {
-    //shooters, dualies, blasters - 40/68 total
+    //shooters, dualies, blasters - 40/73 total
     private int damage, fireRate;
 
     public int getDamage() {

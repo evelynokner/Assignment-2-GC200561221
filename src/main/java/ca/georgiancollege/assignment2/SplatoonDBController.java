@@ -9,7 +9,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.ListView;
-import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -18,25 +17,18 @@ import java.nio.file.Path;
 
 
 public class SplatoonDBController {
+
     Weapons weapons = null;
 
     @FXML
     private ComboBox<String> weapTypeComboBox;
 
-
     @FXML
     private ListView<String> weaponList;
 
-//    @FXML
-//    void openWeaponDetailsView(ActionEvent event) throws IOException {
-//        Parent root = FXMLLoader.load(getClass().getResource("weapon-details-view.fxml"));
-//        Stage stage = (Stage)tableButton.getScene().getWindow();
-//        stage.setScene(new Scene(root, 630, 540));
+//    @FXML public void handleMouseClick(MouseEvent mouseEvent) {
+//        System.out.println("clicked on " + weaponList.getSelectionModel().getSelectedItem());
 //    }
-
-    @FXML public void handleMouseClick(MouseEvent mouseEvent) {
-        System.out.println("clicked on " + weaponList.getSelectionModel().getSelectedItem());
-    }
 
     @FXML
     public void initialize(){
@@ -50,10 +42,11 @@ public class SplatoonDBController {
         }
 
         // add listener to combobox
+        // (action happens when combobox items get selected)
         weapTypeComboBox.valueProperty().addListener((_, oldItem, newItem) -> {
             if(!newItem.equals(oldItem)) fillWeaponList();
-
         });
+
         // add listener to list view
         weaponList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
             @Override
@@ -78,7 +71,7 @@ public class SplatoonDBController {
         weapTypeComboBox.getItems().add("All");
         // 31 shooters
         weapTypeComboBox.getItems().add("Shooters");
-        // 17 painters
+        // 17 painters (brushes, rollers, sloshers)
         weapTypeComboBox.getItems().add("Painters");
         // 10 chargers
         weapTypeComboBox.getItems().add("Chargers");
