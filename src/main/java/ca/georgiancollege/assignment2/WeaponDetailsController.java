@@ -13,7 +13,6 @@ import javafx.stage.Stage;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.net.URL;
 
 //import static com.apple.eio.FileManager.getResource;
 
@@ -23,7 +22,7 @@ public class WeaponDetailsController {
     private Button backButton;
 
     @FXML
-    private Label weapNameLabel, weapTypeLabel,
+    private Label weapNameLabel, weapTypeLabel2,
             specialLabel, specialPointsLabel, mmRangeLabel, rangeLabel,
             parameter1, parameter1Label, parameter2, parameter2Label;
 
@@ -39,17 +38,24 @@ public class WeaponDetailsController {
 
     @FXML
     public void initialize() throws FileNotFoundException {
-        specialLabel.setText("");
-        specialPointsLabel.setText("");
-        mmRangeLabel.setText("");
-        rangeLabel.setText("");
-        parameter1Label.setText("");
-        parameter2Label.setText("");
+        Weapon weapon = WeaponData.getWeapon();
+        String imageName = null;
+        if (weapon != null) {
+            weapNameLabel.setText(weapon.getName());
+            weapTypeLabel2.setText(weapon.getType());
+            specialLabel.setText(weapon.getSpecial());
+            specialPointsLabel.setText(weapon.getSpecialPoints() +"");
+            mmRangeLabel.setText(weapon.getMatchmakingRange() +"");
+            rangeLabel.setText(weapon.getRange()+"");
+            parameter1Label.setText("");
+            parameter2Label.setText("");
+            weaponPic.setImage(new Image("file:src/main/resources/images/" + weapon.getImage()));
+        }
 
-        ClassLoader classLoader = getClass().getClassLoader();
-        URL resourceFolder = classLoader.getResource("images");
-        URL resource = classLoader.getResource("/images/52gal.png");
-        String imageUrl = String.valueOf(resource);
-        weaponPic.setImage(new Image("file:src/main/resources/images/52gal.png"));
+//        ClassLoader classLoader = getClass().getClassLoader();
+//        URL resourceFolder = classLoader.getResource("images");
+//        URL resource = classLoader.getResource("/images/52gal.png");
+//        String imageUrl = String.valueOf(resource);
+
     }
 }

@@ -52,14 +52,18 @@ public class SplatoonDBController {
             @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
                 Parent root = null;
+                System.out.println("Selected item: " + newValue);
+                Weapon selectedWeapon = findWeaponByName(newValue);
+                WeaponData.setWeapon(selectedWeapon);
                 try {
                     root = FXMLLoader.load(getClass().getResource("weapon-details-view.fxml"));
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
+
                 Stage stage = (Stage)weaponList.getScene().getWindow();
                 stage.setScene(new Scene(root, 630, 540));
-                System.out.println("Selected item: " + newValue);
+
             }
         });
 
@@ -80,6 +84,15 @@ public class SplatoonDBController {
         // 6 splatlings
         weapTypeComboBox.getItems().add("Splatlings");
 
+    }
+
+    private Weapon findWeaponByName(String newValue) {
+        for(Weapon weapon : weapons.getWeapons()){
+            if(weapon.getName().equals(newValue)){
+                return weapon;
+            }
+        }
+        return null;
     }
 
     private void fillWeaponList(){
