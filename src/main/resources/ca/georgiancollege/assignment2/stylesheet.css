@@ -1,16 +1,22 @@
 #anchorpane{
-    /*-fx-background-image:
-    url("https://images.alphacoders.com/111/1112260.jpg");
-    -fx-background-size: 1000px;*/
+    -fx-background-image:
+    url("https://i.redd.it/b5s43671m7l01.png");
+    -fx-background-size: 1000px;
     width: 630px;
     height: 540px;
 }
 #weapNameLabel, #weapDBLabel{
     -fx-background-color: white;
+    -fx-text-alignment: center;
 }
 #weapTypeLabel1, #weapTypeLabel2, #selectLabel{
     -fx-text-fill: white;
     -fx-font-weight: bold;
+}
+#swLabel, #spLabel, #mmrLabel, #rLabel, #specialLabel, #specialPointsLabel, #mmRangeLabel, #rangeLabel{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
 }
 #backButton{
     -fx-background-color: white;

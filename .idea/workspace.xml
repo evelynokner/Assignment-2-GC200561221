@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="added images to json">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponData.java" afterDir="false" />
+    <list default="true" id="c2ce987f-df74-4bf1-9376-bf30d5c4b359" name="Changes" comment="weapon details view displays details of selected weapon">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/krak-on-splat-roller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splat-roller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/splatoon-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Charger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Painter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Shooter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/SplatoonDBController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/splatoon-weapons.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2/weapon-details-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +99,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/assignment2" />
-      <recent name="$PROJECT_DIR$/src/main/resources/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +143,8 @@
       <workItem from="1722718128257" duration="1139000" />
       <workItem from="1722784097259" duration="11599000" />
       <workItem from="1722964128525" duration="16440000" />
-      <workItem from="1723151668705" duration="2301000" />
+      <workItem from="1723151668705" duration="4105000" />
+      <workItem from="1723223217460" duration="4778000" />
     </task>
     <task id="LOCAL-00001" summary="ui">
       <option name="closed" value="true" />
@@ -190,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723073954624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="weapon details view displays details of selected weapon">
+      <option name="closed" value="true" />
+      <created>1723154026774</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723154026774</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,17 +223,7 @@
     <MESSAGE value="can switch between both views" />
     <MESSAGE value="css stylesheet" />
     <MESSAGE value="added images to json" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images to json" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/georgiancollege/assignment2/WeaponDetailsController.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="weapon details view displays details of selected weapon" />
+    <option name="LAST_COMMIT_MESSAGE" value="weapon details view displays details of selected weapon" />
   </component>
 </project>

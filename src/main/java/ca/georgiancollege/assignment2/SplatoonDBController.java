@@ -26,10 +26,6 @@ public class SplatoonDBController {
     @FXML
     private ListView<String> weaponList;
 
-//    @FXML public void handleMouseClick(MouseEvent mouseEvent) {
-//        System.out.println("clicked on " + weaponList.getSelectionModel().getSelectedItem());
-//    }
-
     @FXML
     public void initialize(){
         Gson gson = new Gson();

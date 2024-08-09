@@ -14,7 +14,6 @@ import javafx.stage.Stage;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-//import static com.apple.eio.FileManager.getResource;
 
 public class WeaponDetailsController {
 
@@ -49,13 +48,10 @@ public class WeaponDetailsController {
             rangeLabel.setText(weapon.getRange()+"");
             parameter1Label.setText("");
             parameter2Label.setText("");
+            parameter1.setText("");
+            parameter2.setText("");
             weaponPic.setImage(new Image("file:src/main/resources/images/" + weapon.getImage()));
         }
-
-//        ClassLoader classLoader = getClass().getClassLoader();
-//        URL resourceFolder = classLoader.getResource("images");
-//        URL resource = classLoader.getResource("/images/52gal.png");
-//        String imageUrl = String.valueOf(resource);
 
     }
 }
